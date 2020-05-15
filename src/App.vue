@@ -1,0 +1,33 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<style lang="scss">
+#app{
+  min-height: 100%;
+}
+
+.loginbox  input{
+      width:350px;
+      height:44px;
+      background:rgba(245,245,245,1);
+      border-radius:22px;
+      border: 0;
+      text-indent: 2.6em;
+    }
+    .loginbox .ivu-form-item-content .icon{
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      z-index: 2;
+      width: 20px;
+      object-fit: contain;
+    }
+
+   .loginbox .ivu-form-item-error-tip{
+     left: 20px;
+    }
+
+</style>
